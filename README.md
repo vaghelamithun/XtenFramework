@@ -2,7 +2,7 @@
 XTen framework includes the basic component's implementation of android application, Like Drawer, RecyclerView, Fab button etc. Automated setup framework of the basic component will also help in design to handle some basic features of application.
 
 ### Dependency Setup
-To use **CountrySdk** in your projects, simply add the library as a dependency to your build.
+To use **XtenFramework** in your projects, simply add the library as a dependency to your build.
 
 ##### Maven
 ```
