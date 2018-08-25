@@ -4,11 +4,11 @@ XTen framework includes the basic component's implementation of android applicat
 ### Core Activities
 Extend any `Core Activity` listed below and override some required method into your activity to maping and handle some basic UI component easyly and reduce the complexity and line of code.
 
-- [!CoreBaseActivity](https://github.com/riontech-xten/XtenFramework/edit/master/README.md)
-- [!CoreActionBarActivity](https://github.com/riontech-xten/XtenFramework/edit/master/README.md)
-- [!CoreDrawerActivity](https://github.com/riontech-xten/XtenFramework/edit/master/README.md)
-- [!CoreRecyclerActivity](https://github.com/riontech-xten/XtenFramework/edit/master/README.md)
-- [!CoreSplashActivity](https://github.com/riontech-xten/XtenFramework/edit/master/README.md)
+- [CoreBaseActivity](https://github.com/riontech-xten/XtenFramework)
+- [CoreActionBarActivity](https://github.com/riontech-xten/XtenFramework)
+- [CoreDrawerActivity](https://github.com/riontech-xten/XtenFramework)
+- [CoreRecyclerActivity](https://github.com/riontech-xten/XtenFramework)
+- [CoreSplashActivity](https://github.com/riontech-xten/XtenFramework)
 
 ### Dependency Setup
 To use **XtenFramework** in your projects, simply add the library as a dependency to your build.
