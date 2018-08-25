@@ -4,7 +4,7 @@ Contain dailly basis uses methods and easy setup of fab button, progressbar and 
 
 #### Public Methods
 
- | `protected void onFabClick(View view)`  | Handlle the FloatingActionButton click event                                |
+`protected void onFabClick(View view)`  | Handlle the FloatingActionButton click event 
  | Content Cell                          | Content Cell                                                                |
 
 | protected void onFabClick(View view) | Handlle the FloatingActionButton click event |
