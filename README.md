@@ -2,13 +2,30 @@
 XTen framework includes the basic component's implementation of android application, Like Drawer, RecyclerView, Fab button etc. Automated setup framework of the basic component will also help in design to handle some basic features of application.
 
 ### Core Activities
-Extend any `Core Activity` listed below and override some required method into your activity to maping and handle some basic UI component easyly and reduce the complexity and line of code.
+Just extend any `Core Activity`and override some required method into your activity to maping and handle some basic UI component easyly and reduce the complexity and line of code.
 
 - [CoreBaseActivity](https://github.com/riontech-xten/XtenFramework)
 - [CoreActionBarActivity](https://github.com/riontech-xten/XtenFramework)
 - [CoreDrawerActivity](https://github.com/riontech-xten/XtenFramework)
 - [CoreRecyclerActivity](https://github.com/riontech-xten/XtenFramework)
 - [CoreSplashActivity](https://github.com/riontech-xten/XtenFramework)
+
+### Fragments
+
+- [CoreBaseFragment](https://github.com/riontech-xten/XtenFramework)
+- [CoreRecyclerViewBaseFragment](https://github.com/riontech-xten/XtenFramework)
+- [ProgressDialogFragment](https://github.com/riontech-xten/XtenFramework)
+
+### Base Data Binding Adapters 
+
+- [BaseRecyclerViewAdapter](https://github.com/riontech-xten/XtenFramework)
+- [BaseSelectedRecyclerViewAdapter](https://github.com/riontech-xten/XtenFramework)
+
+### Singletone classes 
+
+- [CoreApp](https://github.com/riontech-xten/XtenFramework)
+- [DataWrapper](https://github.com/riontech-xten/XtenFramework)
+- [ActivityStack](https://github.com/riontech-xten/XtenFramework)
 
 ### Dependency Setup
 To use **XtenFramework** in your projects, simply add the library as a dependency to your build.
