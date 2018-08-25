@@ -1,8 +1,8 @@
 # XtenFramework [ ![Download](https://api.bintray.com/packages/vaghelamithun/xtensolutions/xten-framework/images/download.svg) ](https://bintray.com/vaghelamithun/xtensolutions/xten-framework/_latestVersion)
 XTen framework includes the basic component's implementation of android application, Like Drawer, RecyclerView, Fab button etc. Automated setup framework of the basic component will also help in design to handle some basic features of application.
 
-### Core Activities
-Just extend any `Core Activity`and override some required method into your activity to maping and handle some basic UI component easyly and reduce the complexity and line of code.
+### Activities
+Just extend any `Activity`and override some required method into your activity to maping and handle some basic UI component easyly and reduce the complexity and line of code.
 
 - [CoreBaseActivity](https://github.com/riontech-xten/XtenFramework)
 - [CoreActionBarActivity](https://github.com/riontech-xten/XtenFramework)
@@ -16,7 +16,7 @@ Just extend any `Core Activity`and override some required method into your activ
 - [CoreRecyclerViewBaseFragment](https://github.com/riontech-xten/XtenFramework)
 - [ProgressDialogFragment](https://github.com/riontech-xten/XtenFramework)
 
-### Base Data Binding Adapters 
+### Data Binding Adapters 
 
 - [BaseRecyclerViewAdapter](https://github.com/riontech-xten/XtenFramework)
 - [BaseSelectedRecyclerViewAdapter](https://github.com/riontech-xten/XtenFramework)
