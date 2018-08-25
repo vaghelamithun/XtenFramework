@@ -4,7 +4,7 @@ XTen framework includes the basic component's implementation of android applicat
 ### Activities
 Just extend any `Activity`and override some required method into your activity to maping and handle some basic UI component easyly and reduce the complexity and line of code.
 
-- [CoreBaseActivity](https://github.com/riontech-xten/XtenFramework)
+- [CoreBaseActivity](https://github.com/riontech-xten/XtenFramework/blob/master/COREBASEACTIVITY.md)
 - [CoreActionBarActivity](https://github.com/riontech-xten/XtenFramework)
 - [CoreDrawerActivity](https://github.com/riontech-xten/XtenFramework)
 - [CoreRecyclerActivity](https://github.com/riontech-xten/XtenFramework)
