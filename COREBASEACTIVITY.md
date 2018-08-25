@@ -4,6 +4,11 @@ Contain dailly basis uses methods and easy setup of fab button, progressbar and 
 
 #### Public Methods
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 | protected void onFabClick(View view) | Handlle the FloatingActionButton click event |
 | protected int getFabId() | To initialize the fab button, return fab resource id |
 | public <T extends View> T _findViewById(int viewId) | finding view by resource id, no need to cast |
