@@ -1,31 +1,86 @@
 # XtenFramework [ ![Download](https://api.bintray.com/packages/vaghelamithun/xtensolutions/xten-framework/images/download.svg) ](https://bintray.com/vaghelamithun/xtensolutions/xten-framework/_latestVersion)
-XTen framework includes the basic component's implementation of android application, Like Drawer, RecyclerView, Fab button etc. Automated setup framework of the basic component will also help in design to handle some basic features of application.
+The purpose of this framework only to reduce the complexity of development.
+This framework contain the many android basic component which are we often
+use in our android project like RecyclerView, FloatingActionButton, DrawerLayout,
+SwipeRefreshLayout, Fragment, ActionBar, Snackbar and Toolbar.
 
-### Activities
+### Basic features of Xten-Framework
+
+- Fast Development.
+- Managing and handling the clear and well structure programing.
+- Auto Handling hamburger icon to arrow vice versa on child page change
+- No need to initialize contained basic component.
+- Handling android version compatibility.
+- Managing Activity Stack
+- File icon base on its extensions.
+- Get resources using app compat.
+- Local manage and save data object with list using key
+- Pagination or load more
+
+### Application level abstract class
+
+- CoreApp require to extend application class to use some resource related utils class.
+
+### Basic component activity abstract classes which need to extend are
 Just extend any `Activity`and override some required method into your activity to maping and handle some basic UI component easyly and reduce the complexity and line of code.
 
-- [CoreBaseActivity](https://github.com/riontech-xten/XtenFramework/blob/master/COREBASEACTIVITY.md)
-- [CoreActionBarActivity](https://github.com/riontech-xten/XtenFramework)
-- [CoreDrawerActivity](https://github.com/riontech-xten/XtenFramework)
-- [CoreRecyclerActivity](https://github.com/riontech-xten/XtenFramework)
-- [CoreSplashActivity](https://github.com/riontech-xten/XtenFramework)
+- [CoreSplashActivity](https://github.com/riontech-xten/XtenFramework) extends by AppCompatActivity
+- [CoreBaseActivity](https://github.com/riontech-xten/XtenFramework/blob/master/COREBASEACTIVITY.md) extends by AppCompatActivity
+- [CoreActionBarActivity](https://github.com/riontech-xten/XtenFramework) extends by CoreBaseActivity
+- [CoreFragmentActivity](https://github.com/riontech-xten/XtenFramework) extends by CoreActionBarActivity
+- [CoreDrawerActivity](https://github.com/riontech-xten/XtenFramework) extends by CoreFragmentActivity
+- [CoreRecyclerActivity](https://github.com/riontech-xten/XtenFramework) extends by CoreActionBarActivity
 
-### Fragments
+### Base data binding adapters abstract classes
 
-- [CoreBaseFragment](https://github.com/riontech-xten/XtenFramework)
-- [CoreRecyclerViewBaseFragment](https://github.com/riontech-xten/XtenFramework)
-- [ProgressDialogFragment](https://github.com/riontech-xten/XtenFramework)
+- BaseRecyclerViewAdapter
+- BaseSelectedRecyclerViewAdapter
+- BaseListAdapter
+- BaseSelectedListAdapter
 
-### Data Binding Adapters 
+### Base adapter holder abstract classes
 
-- [BaseRecyclerViewAdapter](https://github.com/riontech-xten/XtenFramework)
-- [BaseSelectedRecyclerViewAdapter](https://github.com/riontech-xten/XtenFramework)
+- BaseRecyclerHolder
+- BaseViewHolder
 
-### Singletone classes 
+### RecyclerView Item Decoration
 
-- [CoreApp](https://github.com/riontech-xten/XtenFramework)
-- [DataWrapper](https://github.com/riontech-xten/XtenFramework)
-- [ActivityStack](https://github.com/riontech-xten/XtenFramework)
+- LinearItemDecoration
+- GridItemDecoration
+
+### Fragment abstract classes
+
+- CoreBaseFragment
+- CoreRecyclerViewBaseFragment
+
+### Utils classes
+
+- ActivityLifecycle
+- ActivityStack
+- AppLog
+- CompatibilityUtil
+- DeviceUtils
+- DialogUtils
+- ErrorUtils
+- FileExtensionUtils
+- ImageUtils
+- KeyboardUtils
+- NetworkUtil
+- PermissionUtils
+- ReflectionUtil
+- ResourceUtils
+- SharedPrefsHelper
+- SlideAnimationUtil
+- SpannableUtils
+- StorageUtils
+- StringUtils
+- Toaster
+- VersionUtils
+
+### Local data save wrapper class
+
+- DataWrapper
+
 
 ### Dependency Setup
 To use **XtenFramework** in your projects, simply add the library as a dependency to your build.
@@ -35,7 +90,7 @@ To use **XtenFramework** in your projects, simply add the library as a dependenc
 <dependency>
   <groupId>com.xtensolution.support</groupId>
   <artifactId>xten-framework</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <type>pom</type>
 </dependency>
 ```
@@ -46,19 +101,12 @@ dependencies {
 }
 ```
 
-### Required other dependencies
-```
-- implementation "com.android.support:appcompat-v7:27.1.1"
-- implementation 'com.android.support:recyclerview-v7:27.1.1'
-- implementation "com.android.support:design:27.1.1"
-
-```
 
 The library is currently configured to be built via Gradle only. It has the following dependencies:
 
-* Android Gradle plugin 3.0.1 - com.android.tools.build:gradle:3.1.3
-* Android Support appcompt-v7 - com.android.support:appcompat-v7:27.1.1
-* Compiled SDK Version        - Oreo-27
+* Android Gradle plugin 3.0.1 - com.android.tools.build:gradle:3.4.2
+* Android Support appcompt-v7 - androidx.appcompat:appcompat:1.1.0
+* Compiled SDK Version        - Android P - 28
 * Supported Version           - >= 2.1
 
 
