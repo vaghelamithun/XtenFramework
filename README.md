@@ -104,8 +104,8 @@ dependencies {
 
 The library is currently configured to be built via Gradle only. It has the following dependencies:
 
-* Android Gradle plugin 3.0.1 - com.android.tools.build:gradle:3.4.2
-* Android Support appcompt-v7 - androidx.appcompat:appcompat:1.1.0
+* Android Gradle plugin - com.android.tools.build:gradle:3.4.2
+* Android Support appcompt - androidx.appcompat:appcompat:1.1.0
 * Compiled SDK Version        - Android P - 28
 * Supported Version           - >= 2.1
 
