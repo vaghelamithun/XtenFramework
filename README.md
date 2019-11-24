@@ -90,14 +90,22 @@ To use **XtenFramework** in your projects, simply add the library as a dependenc
 <dependency>
   <groupId>com.xtensolution.support</groupId>
   <artifactId>xten-framework</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <type>pom</type>
 </dependency>
 ```
 ##### Gradle
 ```
 dependencies {
-  implementation 'com.xtensolution.support:xten-framework:1.0.0'
+  implementation 'com.xtensolution.support:xten-framework:1.0.2'
+}
+```
+
+##### Require other dependencies
+```
+dependencies {
+  implementation 'androidx.appcompat:appcompat:1.1.0'
+  implementation 'androidx.recyclerview:recyclerview:1.1.0-beta04'
 }
 ```
 
